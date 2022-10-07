@@ -1,10 +1,7 @@
-html {
-    position: relative;
-    min-height: 100%;
-  }
-  
+
 
 body{
+    background-color: lightgray;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,6 +42,7 @@ h1{
     display: flex;
     width: 600px;
     margin-top: 50px;
+    margin-bottom: 70px;
     justify-content: space-between;
     gap: 200px;
 }
@@ -127,6 +125,7 @@ button:hover{
 }
 
 .footer{
+    margin-top: 50px;
     text-align: center;
     position: fixed;
     background-color: transparent;
@@ -138,13 +137,7 @@ button:hover{
     border-top: 1px solid black;
   }
 
-  @media (max-width: 1200px) {
-    .main {
-      justify-content: center;
-    }
-  }
-
-  @media (max-width: 650px) {
+  @media (max-width: 800px) {
 
     .mainContent{
         display: flex;
@@ -171,7 +164,6 @@ button:hover{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap: 20px;
     }
 
     .commandPanel{
@@ -180,11 +172,15 @@ button:hover{
         flex-direction: column;
         justify-content: center;
         height: auto;
+        margin: 20px;
+        width: auto;
         align-items: center;
-        gap: 50px;
+        gap: 12px;
     }
+
     .slideContainer{
         margin-top: 0px;
+        margin-bottom: 80px;
         display: flex;
         flex-direction: column;
         justify-content: center;
